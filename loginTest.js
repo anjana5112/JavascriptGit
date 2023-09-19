@@ -8,7 +8,7 @@ async function loginWithUsername(username) {
   const apiUrl = 'https://api.techenablesme.com/calman/api/login'; 
   const requestBody = {
     username: username,
-    password: '2021cm', 
+    password: '2021cm', // Actual password
   };
 
   try {
